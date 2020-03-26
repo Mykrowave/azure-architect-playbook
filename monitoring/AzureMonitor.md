@@ -20,7 +20,14 @@ A Storage Account is needed $
 Maximium of 3 Diagnostic settings per resource  
 This can be configured through a REST API, PowerShell, Azure CLI, ARM Template  
 You can setup diagnostics to be cross subscription  
-Authorization is handled through Active Directory
+Authorization is handled through Active Directory  
+Deploying ARM Templates can be done through Powershell Command and Azure CLI:  
+1) PS Activity Log = New-AzDeployment
+2) Azure cli Activity Log = az deployment create,
+3) PS Resource Log = New-AzResourceGroupDeployment
+4) Azure cli Resource Log = az group deployment create  
+
+
 
 
 
