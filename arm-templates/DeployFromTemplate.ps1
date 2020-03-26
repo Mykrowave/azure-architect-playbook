@@ -48,9 +48,21 @@ New-AzResourceGroupDeployment `
 -ResourceGroupName examplegroup).Properties.request `
 | ConvertTo-Json
 
-#Examine response content
+# Examine response content
 (Get-AzResourceGroupDeploymentOperation `
 -DeploymentName exampledeployment `
 -ResourceGroupName examplegroup).Properties.response `
 | ConvertTo-Json
 
+# Get a protected template from Azure Storage
+# get the URI with the SAS token
+$templateuri = New-AzStorageBlobSASToken `
+  -Container templates `
+  -Blob azuredeploy.json `
+  -Permission r `
+  -ExpiryTime (Get-Date).AddHours(2.0) -FullUri
+
+# provide URI with SAS token during deployment
+New-AzResourceGroupDeployment `
+  -ResourceGroupName ExampleGroup `
+  -TemplateUri $templateuri
