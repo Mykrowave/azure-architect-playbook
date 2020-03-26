@@ -1,10 +1,24 @@
 # Azure Monitor
+Provides a "centralized" place to manage Metrics, Diagnostics, and Logs across all pieces of your Infrastructure.  Multiple Diagnostic settings can be applied to a single resource.  
 
-Provides a "centralized" place to manage Metrics, Diagnostics, and Logs across all pieces of your Infrastructure.
+## Resource Diagnostic Setting
+Need to determine what diagnostics need to be collected AND where that data should be stored.  
+What you want to capture is largely determined by the type of resource the diagnostic setting is attached to. There are usually default (most common) things already chosen for you, but make sure to drill into the "custom" settings to see all available options.  
 
-Turn on Diagnostics
+Possible Destinations:  
+1) Storage Account
+2) Log Analytics WorkSpaces
+3) Event Hubs namespaces (for integration with 3rd party tools)  
 
-Setup Agent on a VM
+## UnOrdered Notes
+Don't forget to Turn on Diagnostics.  It's not always on by default  
+Will need to Setup Agent on a VM  
+A Storage Account is needed $  
+Maximium of 3 Diagnostic settings per resource  
+This can be configured through a REST API, PowerShell, Azure CLI, ARM Template  
+You can setup diagnostics to be cross subscription  
+Authorization is handled through Active Directory
 
-Storage Account is needed $
+
+
 
