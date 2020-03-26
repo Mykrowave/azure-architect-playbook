@@ -13,6 +13,10 @@ Possible Destinations:
 2) Log Analytics WorkSpaces
 3) Event Hubs namespaces (for integration with 3rd party tools)  
 
+## Activity Log  
+You cannot create a diagnostic setting for Activity Log through PowerShell or Azure CLI, but you can create a Deployment ARM Template and Deploy through PowerShell or Azure CLI  
+
+
 ## UnOrdered Notes
 Don't forget to Turn on Diagnostics.  It's not always on by default  
 Will need to Setup Agent on a VM  
