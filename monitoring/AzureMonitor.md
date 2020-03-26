@@ -13,6 +13,13 @@ Possible Destinations:
 2) Log Analytics WorkSpaces
 3) Event Hubs namespaces (for integration with 3rd party tools)  
 
+
+## Log Analytic WorkSpaces  
+Need to install an Activity Log Analytics solution.  
+Option 1: Install a solution from the MarketPlace https://azuremarketplace.microsoft.com/en-us/marketplace/apps/category/management-tools?page=1&subcategories=management-solutions  
+Option 2: Install from a Community built selection QuickStart: https://azure.microsoft.com/en-us/resources/templates/  
+
+
 ## UnOrdered Notes
 Don't forget to Turn on Diagnostics.  It's not always on by default  
 Will need to Setup Agent on a VM  
