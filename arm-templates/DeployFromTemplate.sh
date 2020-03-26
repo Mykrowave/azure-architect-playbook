@@ -55,4 +55,24 @@ az deployment group operation list \
   -g examplegroup \
   --query [].properties.response
 
-  
+# Get Protected Template in Storage
+expiretime=$(date -u -d '30 minutes' +%Y-%m-%dT%H:%MZ)
+connection=$(az storage account show-connection-string \
+    --resource-group ExampleGroup \
+    --name {your-unique-name} \
+    --query connectionString)
+token=$(az storage blob generate-sas \
+    --container-name templates \
+    --name azuredeploy.json \
+    --expiry $expiretime \
+    --permissions r \
+    --output tsv \
+    --connection-string $connection)
+url=$(az storage blob url \
+    --container-name templates \
+    --name azuredeploy.json \
+    --output tsv \
+    --connection-string $connection)
+az deployment group create \
+  --resource-group ExampleGroup \
+  --template-uri $url?$token
