@@ -1,5 +1,5 @@
 # ARM Template BreakDown
-More Detail: https://docs.microsoft.com/en-us/azure/azure-resource-manager/templates/template-syntax
+More Detail: https://docs.microsoft.com/en-us/azure/azure-resource-manager/templates/template-syntax  
 A look at the pieces that make up an ARM Template  
 
 ## BreakDown  
