@@ -38,3 +38,21 @@ az deployment group validate \
   --template-file storage.json \
   --parameters @storage.parameters.json
   
+# Examine Deployment Operations
+az deployment group operation list \
+  --resource-group examplegroup \
+  --name exampledeployment
+  
+# Examine Request Content
+az deployment group operation list \
+  --name exampledeployment \
+  -g examplegroup \
+  --query [].properties.request
+
+# Examine Response Content
+az deployment group operation list \
+  --name exampledeployment \
+  -g examplegroup \
+  --query [].properties.response
+
+  
