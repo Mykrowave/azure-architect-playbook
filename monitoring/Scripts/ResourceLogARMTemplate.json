@@ -1,0 +1,29 @@
+"resources": [
+  {
+    "type": "/<resource namespace>/providers/diagnosticSettings",
+    "name": "[concat(parameters('resourceName'),'/microsoft.insights/', parameters('settingName'))]",
+    "dependsOn": [
+      "[<resource Id for which resource logs will be enabled>]"
+    ],
+    "apiVersion": "2017-05-01-preview",
+    "properties": {
+      "name": "[parameters('settingName')]",
+      "storageAccountId": "[resourceId('Microsoft.Storage/storageAccounts', parameters('storageAccountName'))]",
+      "eventHubAuthorizationRuleId": "[parameters('eventHubAuthorizationRuleId')]",
+      "eventHubName": "[parameters('eventHubName')]",
+      "workspaceId": "[parameters('workspaceId')]",
+      "logs": [
+        {
+          "category": "<category name>",
+          "enabled": true
+        }
+      ],
+      "metrics": [
+        {
+          "category": "AllMetrics",
+          "enabled": true
+        }
+      ]
+    }
+  }
+]
