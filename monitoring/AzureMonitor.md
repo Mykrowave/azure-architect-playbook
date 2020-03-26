@@ -3,7 +3,10 @@ Provides a "centralized" place to manage Metrics, Diagnostics, and Logs across a
 
 ## Resource Diagnostic Setting
 Need to determine what diagnostics need to be collected AND where that data should be stored.  
-What you want to capture is largely determined by the type of resource the diagnostic setting is attached to. There are usually default (most common) things already chosen for you, but make sure to drill into the "custom" settings to see all available options.  
+Type of Platform Logs:  
+1) Resource(Diagnostic) Logs - insights WITHIN an Azure Resource  
+2) Activity Log - insights ABOUT what happened to an Azure Resource  
+3) Azure Active Directory Log - "User" reports  
 
 Possible Destinations:  
 1) Storage Account
