@@ -7,5 +7,8 @@ You pick a metric (or more), set the threshold(s) to specific values and alert w
 You pick a metric (or more), set "lookback" periods, set number of violations and set operator. A ML algorithm will look back at the previoius periods and determine what the Threshold should be. The alert will trigger if the number of violations is met.  (Pretty Cool)  
 
 ## Multiple Dimensions
-You can monitor multiple instances with same alert rule.  In this case you can define each instance individually OR you can define instance as *
+You can monitor multiple instances with same alert rule.  In this case you can define each instance individually OR you can define instance as *  
+
+## Alerts at Scale 
+You can set up one alert that can be attached to multiple resources (of the same type)
 
