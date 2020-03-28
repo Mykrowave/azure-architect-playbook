@@ -21,5 +21,6 @@ Cost management is an organizational problem. It needs to be an ongoing effort.
 - If there is a service incident, you can request a SLA credit through submitting a suppport request.  
 - It's obvious that Finance and Managers need to know about costs, but it's important that each app team understands the daily cost of what they have built as well versus the usage  
 - Budgets, Alerts, and Cost Analysis can all be sliced into different "scopes."  A scope could be a resource group or it could be the whole subscription  
+- It's possible to use Powershell and ARM Template to deploy a Budget
 
 
