@@ -9,9 +9,9 @@ Type of Platform Logs:
 3) Azure Active Directory Log - "User" reports  
 
 Possible Destinations:  
-1) Storage Account
-2) Log Analytics WorkSpaces
-3) Event Hubs namespaces (for integration with 3rd party tools)  
+1) Storage Account (create csv's, excel reports, static analysis)
+2) Log Analytics WorkSpaces (Query specifics and dig those problems out)
+3) Event Hubs namespaces (date pipelines "ingestion")  
 
 ## Activity Log  
 You cannot create a diagnostic setting for Activity Log through PowerShell or Azure CLI, but you can create a Deployment ARM Template and Deploy through PowerShell or Azure CLI  
