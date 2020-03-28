@@ -1,5 +1,6 @@
 # Azure Monitor
 Provides a "centralized" place to manage Metrics, Diagnostics, and Logs across all pieces of your Infrastructure.  Multiple Diagnostic settings can be applied to a single resource.  
+There are many many monitoring solutions that can feed a Log Analytics workspace. The Azure Marketplace houses them all.
 
 ## Resource Diagnostic Setting
 Need to determine what diagnostics need to be collected AND where that data should be stored.  
