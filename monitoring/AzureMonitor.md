@@ -16,6 +16,16 @@ Possible Destinations:
 ## Activity Log  
 You cannot create a diagnostic setting for Activity Log through PowerShell or Azure CLI, but you can create a Deployment ARM Template and Deploy through PowerShell or Azure CLI  
 
+## Sources of Azure Monitor Logs  
+Azure AD  
+Activity Logs: Stored separately for each resource, but you can set up a solution to write to Log Analytics Workspaces  
+Resource Diagnostics: Configre diagnostic settings to write  
+Platform Metrics  
+VM: Install Agent  
+Application
+Containers
+
+
 
 ## UnOrdered Notes
 Don't forget to Turn on Diagnostics.  It's not always on by default  
