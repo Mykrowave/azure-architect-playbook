@@ -19,7 +19,13 @@ Stores Virtual Machine Storage Disks that are available to the IaaS VM's from Az
 4) GZRS - ZRS with LRS in secondary region  
 5) RA-GRS & RA-GZRS - Adds a readonly Region Based synced set to make it so this data is always readable.  Could be used to optimize performance OR provide an automatic failover  
 
-
+## Transfer Options  
+- Azure Storage Explorer  
+- AzCopy utility  
+- client library  
+- Azure POrtal  
+- PowerShell / azure cli  
+- Azure Data Box {Ship physical devices, Gateway lets install agent locally}
 
 ## Notes  
 - General Purpose V2 covers most* scenarios  
