@@ -12,3 +12,6 @@ Structured Data (Non-Relational)
 5) **Disks**   
 Stores Virtual Machine Storage Disks that are available to the IaaS VM's from Azure.  
 
+## Programmatic Access  
+REST APIs, SDKs, PowerShell, Azure CLI, and Azure Storage Explorer (free) Tool  
+
