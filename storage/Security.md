@@ -16,7 +16,7 @@ If a SAS is provided to a client application and expires, the application's func
 Use a Shared Access Policy so you can revoke the policy and not need to cycle the Account Key.  
 
 ### HelpFul Resources  
-- Generate SAS Tokens https://docs.microsoft.com/en-us/rest/api/eventhub/generate-sas-token
+- Generate SAS Tokens https://docs.microsoft.com/en-us/rest/api/eventhub/generate-sas-token  
 
 
 
