@@ -1,3 +1,4 @@
 # Networking
 
-- Connect On Premises to Azure with VPN Gateway
+## Azure VPN Gateway 
+- Connect on-premises network to Azure
