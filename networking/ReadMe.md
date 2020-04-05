@@ -4,7 +4,9 @@
 - Connect on-premises network to Azure (site-to-site)
 - Connect Individual Devices to Azure with (point-to-site)
 - Connect Azure vnet to other Azure vnet (network-to-network)  
-## [Network Security Groups](https://github.com/Mykrowave/azure-architect-playbook/tree/master/networking/network-security-groups)  
+## [Network Security Groups](https://github.com/Mykrowave/azure-architect-playbook/tree/master/networking/network-security-groups)
+- Attach to a Subnet  
+- Attach to a NetWork Interface
 
 
 
