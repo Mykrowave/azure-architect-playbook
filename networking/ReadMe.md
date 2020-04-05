@@ -11,6 +11,11 @@
 ## [Virtual Service Endpoints](https://github.com/Mykrowave/azure-architect-playbook/tree/master/networking/virtual-service-endpoints)
 - Extends private networks by adding azure service PaaS Resources (Azure SQL DB, Azure Storage, CosmosDB, etc)
 ## [Virtual Network Peering](https://github.com/Mykrowave/azure-architect-playbook/tree/master/networking/virtual-network-peering)
+- Connects Virtual Networks
+- On Azure Backbone
+- Use when you need to integrate Azure Virtual Networks
+
+
 
 
 
