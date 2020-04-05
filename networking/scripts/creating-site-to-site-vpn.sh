@@ -58,7 +58,7 @@ az network vpn-connection create \
     --shared-key <shared-key-text> \
     --local-gateway2 <local-gateway-name>
    
-## Step LAST : Remember to set up on prem  Public IP Address and Virtual Gateway
+## Step LAST : Remember to set up on prem  Public IP Address and Virtual Private Network
 
 # Verify Connection
 az network vpn-connection show \
