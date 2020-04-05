@@ -16,7 +16,7 @@
 
 ### CIDR Notation 
 - Shorthand for masks
-- /X where X is the number of "turned-on"  n^32-x = Total IP Addresses
+- /X where X is the number of "turned-on"  n^(32-x) = Total IP Addresses
 
 ### OSI Model (Layers)  
 - TODO: Summarize Layers
