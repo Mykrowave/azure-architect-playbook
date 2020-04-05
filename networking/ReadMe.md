@@ -10,9 +10,11 @@
 - Attach to a Network Interface
 
 
-
-
-
 ### CIDR Notation 
 - Shorthand for masks
 - /X where X is the number of "Not 1's"  n^32-x = Total IP Addresses
+
+### OSI Model (Layers)  
+- TODO: Summarize Layers
+
+
