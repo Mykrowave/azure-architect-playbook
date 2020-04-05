@@ -7,7 +7,9 @@
 ## [Network Security Groups](https://github.com/Mykrowave/azure-architect-playbook/tree/master/networking/network-security-groups)
 - Set of Rules for Network Traffic
 - Attach to a Subnet  
-- Attach to a Network Interface
+- Attach to a Network Interface  
+## [Virtual Service Endpoints](https://github.com/Mykrowave/azure-architect-playbook/tree/master/networking/virtual-service-endpoints)
+- Extends private networks by adding azure service PaaS Resources (Azure SQL DB, Azure Storage, CosmosDB, etc)
 
 
 ### CIDR Notation 
