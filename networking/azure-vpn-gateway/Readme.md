@@ -12,9 +12,9 @@
 1) Virtual Network 
 2) GatewaySubnet  
 3) Public Ip Address  
-4) Local NetWork GateWay (On Prem) 
-5) Virtual Network Gateway  
-6) Connection  
+4) Local NetWork GateWay ("portal" to on-prem)  
+5) Virtual Network Gateway  (portal to inside the subnet)
+6) Connection  (Connection to on-prem, can have multiple)  
 
 ## Required On-Prem Items Prerequisites (if other site is on-prem)  
 1) VPN Device that can allow Polcy or Route-based VPN  
