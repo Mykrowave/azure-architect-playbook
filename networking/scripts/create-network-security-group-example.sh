@@ -24,8 +24,55 @@ az network nsg create \
 # (Not Shown here)
 # Couldnt we just attach the NSG to Subnet?
     
-#Step 4: Create a Network Security Group Rule
+#Step 4: Create Network Security Group Rules
 #(This example is an SSH inbound allow rule that would be handy for VMs)
+az network nsg rule create \
+    --resource-group <resource-group> \
+    --nsg-name <network-security-group-name> \
+    --name AllowSSHRule \
+    --direction Inbound \
+    --priority 100 \
+    --source-address-prefixes '*' \
+    --source-port-ranges '*' \
+    --destination-address-prefixes '*' \
+    --destination-port-ranges 22 \
+    --access Allow \
+    --protocol Tcp \
+    --description "Allow inbound SSH"
+    
+#Step 5: Restructure to use Application Security Group
+az network asg create \
+    --resource-group <resource-group> \
+    --name <application-security-group-name>
+    
+#Associate resources (network interface resources with the applicaiton security group)
+#Example for VM NIC
+az network nic ip-config update \
+    --resource-group <resource-group> \
+    --application-security-groups <application-security-group-name> \
+    --name <ipconfig-name> \
+    --nic-name <network-interface-card-name> \
+    --vnet-name <vnet-name> \
+    --subnet <subnet-name>
+    
+#Update the Network Security Group to use the Application Security Group we created
+#(This example creates a rule to deny traffic from resources attached to Application security group to 10.0.0.4
+az network nsg rule update \
+    --resource-group <resource-group> \
+    --nsg-name <network-security-group-name> \
+    --name httpRule \
+    --direction Inbound \
+    --priority 150 \
+    --source-address-prefixes "" \
+    --source-port-ranges '*' \
+    --source-asgs <application-security-group-name> \
+    --destination-address-prefixes 10.0.0.4 \
+    --destination-port-ranges 80 \
+    --access Deny \
+    --protocol Tcp \
+    --description "Deny from DataServer to AppServer on port 80 using application security group"
+
+    
 
 
 
