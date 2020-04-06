@@ -13,7 +13,9 @@
 ## [Virtual Network Peering](https://github.com/Mykrowave/azure-architect-playbook/tree/master/networking/virtual-network-peering)
 - Connects Virtual Networks
 - On Azure Backbone
-- Use when you need to integrate Azure Virtual Networks
+- Use when you need to integrate Azure Virtual Networks  
+## [Azure Traffic Manager](https://github.com/Mykrowave/azure-architect-playbook/tree/master/networking/azure-traffic-manager)
+- DNS-Based traffic load balancer
 
 
 
