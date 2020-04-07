@@ -17,7 +17,8 @@
 
 ## Internal vs External Load Balancer
 - External Load Balancer distributes workloads requested from internet
-- Internal Load Balancer districbutes workloads from inside Azure (service to service)
+- Internal Load Balancer districbutes workloads from inside Azure (service to service)  
+- When setting up Internal change the Type to "Internal", assign a private ip address instead of public, place load balancer in protected vnet
 
 ## Basic vs Standard Load Balancer SKU
 - Standard has more features lol
