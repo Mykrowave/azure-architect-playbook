@@ -16,6 +16,8 @@
 - Use when you need to integrate Azure Virtual Networks  
 ## [Azure Traffic Manager](https://github.com/Mykrowave/azure-architect-playbook/tree/master/networking/azure-traffic-manager)
 - DNS-Based traffic load balancer
+## [Azure Load Balancer](https://github.com/Mykrowave/azure-architect-playbook/tree/master/networking/azure-load-balancer)
+
 
 
 
