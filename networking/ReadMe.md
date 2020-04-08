@@ -18,6 +18,9 @@
 - DNS-Based traffic load balancer
 ## [Azure Load Balancer](https://github.com/Mykrowave/azure-architect-playbook/tree/master/networking/azure-load-balancer)
 - Distribute Requests across multiple VMs or Services
+## [Application Gateway](https://github.com/Mykrowave/azure-architect-playbook/tree/master/networking/application-gateway)
+- Application Level Load Balancing
+- Distributes Requests for an application across multiple services based on rules
 
 
 
