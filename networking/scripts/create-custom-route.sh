@@ -43,3 +43,23 @@ az network vnet subnet update \
     --vnet-name vnet \
     --resource-group $rg \
     --route-table publictable
+
+#------------------------- EXTRA -------------------------
+# Add NVA
+az vm create \
+    --resource-group $rg \
+    --name nva \
+    --vnet-name vnet \
+    --subnet dmzsubnet \
+    --image UbuntuLTS \
+    --admin-username azureuser \
+    --admin-password <password>
+    
+# Enable IP Forwarding for Network Interface of NVA
+az network nic update --name $NICNAMEOFNVA \
+    --resource-group $rg \
+    --ip-forwarding true
+    
+# Enable IP Forwarding within applicance
+ssh -t -o StrictHostKeyChecking=no azureuser@$NVAIP 'sudo sysctl -w net.ipv4.ip_forward=1; exit;'
+
