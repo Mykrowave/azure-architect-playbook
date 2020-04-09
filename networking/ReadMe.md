@@ -24,6 +24,8 @@
 ## [Azure Routing](https://github.com/Mykrowave/azure-architect-playbook/tree/master/networking/azure-routing)
 - Control Traffic Flow in your Network  
 - Monitor Traffic
+## [IP Addressing Schema](https://github.com/Mykrowave/azure-architect-playbook/tree/master/networking/ip-addressing-schema)
+- Need to plan well to make sure organization has room to grow and can work well with on-prem networks
 
 
 
