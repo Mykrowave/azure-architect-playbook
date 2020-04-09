@@ -21,6 +21,9 @@
 ## [Application Gateway](https://github.com/Mykrowave/azure-architect-playbook/tree/master/networking/application-gateway)
 - Application Level Load Balancing
 - Distributes Requests for an application across multiple services based on rules
+## [Azure Routing](https://github.com/Mykrowave/azure-architect-playbook/tree/master/networking/azure-routing)
+- Control Traffic Flow in your Network  
+- Monitor Traffic
 
 
 
