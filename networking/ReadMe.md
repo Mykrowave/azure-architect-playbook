@@ -31,12 +31,12 @@
 - /X where X is the number of "turned-on"  n^(32-x) = Total IP Addresses
 
 ### OSI Model (Layers)  
-7) Application Layer (API)
-6) Presentation Layer (Translation: Encryption, encoding, etc)
-5) Session Layer (multiple transmission communications)
-4) Transport Layer (transition of data between two points on a network)
-3) Network Layer (structure packets)
-2) Data Link (transmission between physically connected nodes)
-1) Physical (Bits streamed - RAW)
+7 - Application Layer (API)  
+6 - Presentation Layer (Translation: Encryption, encoding, etc)  
+5 - Session Layer (multiple transmission communications)  
+4 - Transport Layer (transition of data between two points on a network)  
+3 - Network Layer (structure packets)  
+2 - Data Link (transmission between physically connected nodes)  
+1 - Physical (Bits streamed - RAW)
 
 
