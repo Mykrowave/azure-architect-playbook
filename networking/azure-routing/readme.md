@@ -12,3 +12,7 @@
 ## Route Selection
 - Most specific route wins  
 - Priority: User Defined -> BGP -> System 
+
+## NVAs
+- Firewalls, routers, load balancers, proxies
+
