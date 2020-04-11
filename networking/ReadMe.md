@@ -44,4 +44,12 @@
 2 - Data Link (transmission between physically connected nodes)  
 1 - Physical (Bits streamed - RAW)
 
+### Hub-Spoke Topology
+- Basic Components:  
+  1) Network Security Group  
+  2) Perimiter Network: Route external traffic / Firewall / inspect Packets  
+  3) NVA  
+  4) Express route
+
+
 
