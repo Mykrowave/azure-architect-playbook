@@ -17,7 +17,10 @@
 
 ## Notes
 
-### Site to Site VPN
+### (1) Site to Site VPN
 - Remember Ip Address Ranges cant overlap
 - VPN Gatway SKUs scale up with Bandwidth and number of point-to-site connections.  Basic has less features
 - Remember, need special Gateway Subnet for special VMs to be deployed to
+
+### (3) NSG
+- Subnet to subnet can, by default, communicate
