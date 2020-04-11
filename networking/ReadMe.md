@@ -54,6 +54,9 @@
   3) NVA  
   4) Express route
 
+### DDOS Protection
+- Basic: On by Default - Traffic Monitoring, Real-time mitigation
+- Standard: Specifically tuned capabilities for Azure Virtual Network Resources
 
 
 
