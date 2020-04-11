@@ -1,4 +1,4 @@
-# Pracitce
+# Practice
 
 ## In Portal  
 1) Create a Site to Site VPN with two Azure Vnets
