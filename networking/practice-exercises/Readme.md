@@ -10,3 +10,4 @@
 7) Create an Internal Load Balancer? (exploratory)
 8) Create an Application Gateway that has route based routing for "/test" and "/test2".  One is VM and one is AppService
 9) Create MultiSite Application Gateway for "test.com" and "test2.com"
+10) [Create a virtual network setup with VM](https://docs.microsoft.com/en-us/learn/modules/troubleshoot-azure-network-infrastructure/3-exercise-troubleshoot-networking-with-network-watcher)
