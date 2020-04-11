@@ -15,4 +15,9 @@
 5) Connection Troubleshoot : TCP connectivity between resources
 6) VPN Troubleshoot : long running check on virtual network gateway
 
+## Logs
+1) FlowLogs - Ingress / Egress on a per-rule basis.(NSG)  Use an outside tool to parse and visual the logs
+2) Diagnostic Logs - ^
+3) Traffic Analytics - user and application activity across your networks.  Log Analytics required
+
 
