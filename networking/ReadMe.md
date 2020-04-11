@@ -26,7 +26,10 @@
 - Monitor Traffic
 ## [IP Addressing Schema](https://github.com/Mykrowave/azure-architect-playbook/tree/master/networking/ip-addressing-schema)
 - Need to plan well to make sure organization has room to grow and can work well with on-prem networks
-
+## [Monitoring](https://github.com/Mykrowave/azure-architect-playbook/tree/master/networking/monitoring)
+- Network Watcher
+- Diagnostics
+- logs
 
 
 
@@ -50,6 +53,7 @@
   2) Perimiter Network: Route external traffic / Firewall / inspect Packets  
   3) NVA  
   4) Express route
+
 
 
 
