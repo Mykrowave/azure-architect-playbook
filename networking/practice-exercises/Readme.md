@@ -12,3 +12,12 @@
 9) Create MultiSite Application Gateway for "test.com" and "test2.com"
 10) [Create a virtual network setup with VM and Troubleshoot](https://docs.microsoft.com/en-us/learn/modules/troubleshoot-azure-network-infrastructure/3-exercise-troubleshoot-networking-with-network-watcher)
 11) [Network Logs](https://docs.microsoft.com/en-us/learn/modules/troubleshoot-azure-network-infrastructure/5-exercise-troubleshoot-networking-with-network-watcher-metrics-logs)
+
+
+
+## Notes
+
+### Site to Site VPN
+- Remember Ip Address Ranges cant overlap
+- VPN Gatway SKUs scale up with Bandwidth and number of point-to-site connections.  Basic has less features
+- Remember, need special Gateway Subnet for special VMs to be deployed to
