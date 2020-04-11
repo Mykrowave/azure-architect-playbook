@@ -24,3 +24,4 @@
 
 ### (3) NSG
 - Subnet to subnet can, by default, communicate
+- Associating a Network Security Group to a subnet requires they be in the same region
