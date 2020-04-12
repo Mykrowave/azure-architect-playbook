@@ -26,6 +26,7 @@
 - Check [here](https://docs.microsoft.com/en-us/azure/vpn-gateway/vpn-gateway-howto-point-to-site-resource-manager-portal)  for a complete walkthrough
 - Mostly reliant on Certificates
 - Check Virtual Network Gateway SKUS.
+- need to find an isolated address range for dynamic ip distribution - 172 blocked section seems good since vnet is probably going to be built in 10 block.  But, check complete network (even on-prem).  They can't overlap
 
 ### (3) NSG
 - Subnet to subnet can, by default, communicate
