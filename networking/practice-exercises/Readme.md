@@ -36,4 +36,8 @@
 ### (4) Service Endpoints
 - Network Security Group rules will override settings between storage account and subnet service endpoints.  So, make sure that if you have a NSG associated to a subnet or vm, include rules there
 
+### (5) Azure Traffic Manager
+- Azure Traffic Manager requires S1
+- you cannot use two webapps in the same region as AzureEndpoints
+
 
