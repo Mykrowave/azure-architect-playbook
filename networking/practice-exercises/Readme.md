@@ -40,4 +40,10 @@
 - Azure Traffic Manager requires S1
 - you cannot use two webapps in the same region as AzureEndpoints
 
+### (6) External Load Balancer
+- REmember to set up Health Probe
+- Setting up BackEnd Pool - associate by VM or VM ScaleSet.  1 VM per pool if not in ScaleSet
+- Internal Load Balancer is a setting
+- scripts look like update IPconfig on nic (of vm) to add to pool, but didnt see that in portal on VM side or nic side
+
 
