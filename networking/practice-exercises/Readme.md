@@ -24,6 +24,8 @@
 
 ### (2) Point to Site VPN
 - Check [here](https://docs.microsoft.com/en-us/azure/vpn-gateway/vpn-gateway-howto-point-to-site-resource-manager-portal)  for a complete walkthrough
+- Mostly reliant on Certificates
+- Check Virtual Network Gateway SKUS.
 
 ### (3) NSG
 - Subnet to subnet can, by default, communicate
