@@ -22,6 +22,10 @@
 - VPN Gatway SKUs scale up with Bandwidth and number of point-to-site connections.  Basic has less features
 - Remember, need special Gateway Subnet for special VMs to be deployed to
 
+### (2) Point to Site VPN
+- Need to go through come cert [work](https://github.com/MicrosoftDocs/azure-docs/blob/master/includes/vpn-gateway-generate-export-certificates-include.md)
+
 ### (3) NSG
 - Subnet to subnet can, by default, communicate
 - Associating a Network Security Group to a subnet requires they be in the same region
+- Can't figure out if there should be 1 NSG per subnet or if 1 Network Security Group per subnet.  Follow KISS principal.  The less you need to manage, the better - so try to arch it that way
