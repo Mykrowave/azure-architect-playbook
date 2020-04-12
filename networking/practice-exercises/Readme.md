@@ -32,3 +32,8 @@
 - Subnet to subnet can, by default, communicate
 - Associating a Network Security Group to a subnet requires they be in the same region
 - Can't figure out if there should be 1 NSG per subnet or if 1 Network Security Group per subnet.  Follow KISS principal.  The less you need to manage, the better - so try to arch it that way
+
+### (4) Service Endpoints
+- Network Security Group rules will override settings between storage account and subnet service endpoints.  So, make sure that if you have a NSG associated to a subnet or vm, include rules there
+
+
