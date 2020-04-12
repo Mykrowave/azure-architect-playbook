@@ -23,7 +23,7 @@
 - Remember, need special Gateway Subnet for special VMs to be deployed to
 
 ### (2) Point to Site VPN
-- Need to go through come cert [work](https://github.com/MicrosoftDocs/azure-docs/blob/master/includes/vpn-gateway-generate-export-certificates-include.md)
+- Check [here](https://docs.microsoft.com/en-us/azure/vpn-gateway/vpn-gateway-howto-point-to-site-resource-manager-portal)  for a complete walkthrough
 
 ### (3) NSG
 - Subnet to subnet can, by default, communicate
