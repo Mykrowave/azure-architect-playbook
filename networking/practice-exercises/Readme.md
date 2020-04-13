@@ -53,4 +53,5 @@
 - REDO (if time) and troubleshoot why app service was considered unhealthy. It was configured correctly.
 
 ### (7.5) Application Gateway Part 2
-- Had to add my own Helath Probe.  Default Probe setup incorrectly (not sure exactly) cant see definition.
+- Had to add my own custon Health Probe (pick from backend pool)
+- HttpRule needs to override the hostname
