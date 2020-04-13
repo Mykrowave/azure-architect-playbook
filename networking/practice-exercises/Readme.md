@@ -55,3 +55,4 @@
 ### (7.5) Application Gateway Part 2
 - Had to add my own custon Health Probe (pick from backend pool)
 - HttpRule needs to override the hostname
+- WAF Configured.  Detection mode and prevention mode.  Could turn off and turn on different security checks in advanced mode
