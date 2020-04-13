@@ -51,3 +51,6 @@
 - Not sure what the default Health checks are, but I believe they are based on route rules?
 - Check NSGs or traffic rules if unhealthy
 - REDO (if time) and troubleshoot why app service was considered unhealthy. It was configured correctly.
+
+### (7.5) Application Gateway Part 2
+- Had to add my own Helath Probe.  Default Probe setup incorrectly (not sure exactly) cant see definition.
