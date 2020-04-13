@@ -4,7 +4,7 @@
 - Load Balance is Round Robin (can tweak for session stickiness)
 - Requires vnet and subnet
 
-## Parts of an Applicaiton GateWay
+## Parts of an Application GateWay
 1) FrontEnd Ip Address
 2) Listener(s) route traffic behind based on roles (also contains SSL cert here to handle https layer)
 3) Routing Rules defined at Listener level.
