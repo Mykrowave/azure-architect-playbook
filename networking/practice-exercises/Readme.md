@@ -46,4 +46,7 @@
 - Internal Load Balancer is a setting
 - scripts look like update IPconfig on nic (of vm) to add to pool, but didnt see that in portal on VM side or nic side
 
-
+### (7) Application Gateway
+- When doing path-based routing, you still have to set up the "main" backend target
+- Not sure what the default Health checks are, but I believe they are based on route rules?
+- Check NSGs or traffic rules if unhealthy
