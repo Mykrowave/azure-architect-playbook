@@ -50,3 +50,4 @@
 - When doing path-based routing, you still have to set up the "main" backend target
 - Not sure what the default Health checks are, but I believe they are based on route rules?
 - Check NSGs or traffic rules if unhealthy
+- REDO (if time) and troubleshoot why app service was considered unhealthy. It was configured correctly.
