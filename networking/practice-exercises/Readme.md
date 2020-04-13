@@ -9,7 +9,7 @@
 6) Create an External Load Balancer for Two VM Workloads. (Special Note: Try to find where you can set IP-Affinity for sessions)
 7) Create an Internal Load Balancer? (exploratory)
 8) Create an Application Gateway that has route based routing for "/test" and "/test2".  One is VM and one is AppService
-9) Create as Application Gateway with WAF and block my pip.
+9) Create as Application Gateway with WAF.
 10) [Create a virtual network setup with VM and Troubleshoot](https://docs.microsoft.com/en-us/learn/modules/troubleshoot-azure-network-infrastructure/3-exercise-troubleshoot-networking-with-network-watcher)
 11) [Network Logs](https://docs.microsoft.com/en-us/learn/modules/troubleshoot-azure-network-infrastructure/5-exercise-troubleshoot-networking-with-network-watcher-metrics-logs)
 
