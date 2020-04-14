@@ -56,3 +56,7 @@
 - Had to add my own custon Health Probe (pick from backend pool)
 - HttpRule needs to override the hostname
 - WAF Configured.  Detection mode and prevention mode.  Could turn off and turn on different security checks in advanced mode
+
+### (10) Network Watcher
+- IP Flow Verify works well for spot checks and gives you NSG summary (awesome)
+- Conneciton Monitor took a long time to provision but eventually behaved correctly
