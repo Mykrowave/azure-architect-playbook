@@ -60,3 +60,6 @@
 ### (10) Network Watcher
 - IP Flow Verify works well for spot checks and gives you NSG summary (awesome)
 - Conneciton Monitor took a long time to provision but eventually behaved correctly
+
+### (11) Monitoring
+- Traffic Analysis was "reach around ass to get to elbow" on setup.  Had to setup a storage account, attach an NSG Flow Log (Log analytic Workspace to NSG), then plug it in to Azure Traffic Analysis.  In the end, it worked after waiting 30 minutes, but had over 900 traffic reports and using Log Anayltics, I coudlnt find the sample telnet 80 and telnet 443 I used from remote VM.
