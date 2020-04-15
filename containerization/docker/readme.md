@@ -11,4 +11,8 @@
 - Many organizations publish docker images to DockerHub (it's public and free with account)
 - Need Registry, repository, and version tag to get image you want
 
+## Notes
+- Containers do not persist file changes made in it's image.  To do so you would need to take extra steps to preserve the state of the container
+- possible to mount volumes to a container for persistance (not super great idea)
+
 
