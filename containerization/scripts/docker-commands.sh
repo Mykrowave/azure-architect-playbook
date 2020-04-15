@@ -33,5 +33,9 @@ docker rm <container-id>
 # remove a docker image
 docker image rm mcr.microsoft.com/dotnet/core/samples:aspnetapp
 
-
+# building docker image
+# -f specifies Dockerfile
+# -t name of the image with tag
+# . build context for source for COPY command
+docker build -f Dockerfile -t myapp:v1 .
 
