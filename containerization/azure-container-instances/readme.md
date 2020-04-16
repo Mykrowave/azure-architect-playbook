@@ -1,4 +1,11 @@
 # Azure Container Instances
 
 
+## Restart Policies
+1) ALWAYS - good for long running tasks - like web servers
+2) NEVER - containers only run once
+3) ONFAILURE - container only restarts if nonzero exit code.
+
+
+
 
