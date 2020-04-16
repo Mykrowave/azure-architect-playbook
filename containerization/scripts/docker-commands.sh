@@ -39,3 +39,21 @@ docker image rm mcr.microsoft.com/dotnet/core/samples:aspnetapp
 # . build context for source for COPY command
 docker build -f Dockerfile -t myapp:v1 .
 
+# docker tag image
+docker tag myapp:v1 myregistry.azurecr.io/myapp:v1
+
+# push image
+docker push myregistry.azurecr.io/myapp:v1
+
+# start Azure Container Instance
+az container create --resource-group mygroup \  
+--name myinstance \
+--image myregistry.azurecr.io/myapp:latest \  
+--dns-name-label mydnsname \  
+--registry-username <username> \  
+--registry-password <password>
+
+# show Azure Container
+az container show --resource-group mygroup \  
+--name myinstance \  
+--query ipAddress.fqdn
