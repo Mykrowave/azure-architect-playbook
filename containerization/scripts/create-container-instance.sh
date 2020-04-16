@@ -9,8 +9,13 @@ az container create \
   
 # Show Container Instance
 az container show \
-  --resource-group learn-deploy-aci-rg \
+  --resource-group $rg \
   --name mycontainer \
   --query "{FQDN:ipAddress.fqdn,ProvisioningState:provisioningState}" \
   --out table
+  
+# View Container Logs
+az container logs \
+  --resource-group $rg \
+  --name mycontainer-restart-demo
 
