@@ -10,6 +10,12 @@
 - Pass Environment Variables to container with the environment-variables option
 - To be more secure and not store sensitive information in plain text use the secure-environment-variables option
 
+## Data Volumes
+- Containers are stateless
+- Need to mount a volume from an external store
+
+
+
 
 
 
