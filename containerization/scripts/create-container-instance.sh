@@ -41,3 +41,15 @@ az container create \
     COSMOS_DB_ENDPOINT=$COSMOS_DB_ENDPOINT \
     COSMOS_DB_MASTERKEY=$COSMOS_DB_MASTERKEY
 
+# Create Container and Mount Storage Share
+az container create \
+  --resource-group learn-deploy-aci-rg \
+  --name aci-demo-files \
+  --image microsoft/aci-hellofiles \
+  --location eastus \
+  --ports 80 \
+  --ip-address Public \
+  --azure-file-volume-account-name $STORAGE_ACCOUNT_NAME \
+  --azure-file-volume-account-key $STORAGE_KEY \
+  --azure-file-volume-share-name aci-share-demo \
+  --azure-file-volume-mount-path /aci/logs/
