@@ -6,6 +6,9 @@
 2) NEVER - containers only run once
 3) ONFAILURE - container only restarts if nonzero exit code.
 
+## Set Environment Variables
+- Pass Environment Variables to container
+
 
 
 
