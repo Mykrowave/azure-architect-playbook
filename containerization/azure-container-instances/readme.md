@@ -15,6 +15,11 @@
 - Need to mount a volume from an external store
 - az bash command gives options for azure file share parameters
 
+## Troubleshoot
+- Attach to watch container instance "happenings" - log streaming
+- show metrics like cpu and memory
+
+
 
 
 
