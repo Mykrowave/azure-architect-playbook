@@ -13,6 +13,7 @@
 ## Data Volumes
 - Containers are stateless
 - Need to mount a volume from an external store
+- az bash command gives options for azure file share parameters
 
 
 
