@@ -7,7 +7,8 @@
 3) ONFAILURE - container only restarts if nonzero exit code.
 
 ## Set Environment Variables
-- Pass Environment Variables to container
+- Pass Environment Variables to container with the environment-variables option
+- To be more secure and not store sensitive information in plain text use the secure-environment-variables option
 
 
 
