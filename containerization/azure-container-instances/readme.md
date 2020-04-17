@@ -1,4 +1,5 @@
 # Azure Container Instances
+- Can pull images from Azure Container Registry to deploy
 
 
 ## Restart Policies
@@ -22,6 +23,7 @@
 ## Azure Container Registry Tasks
 - Build Images from source
 - Build on demand with devops process and tooling
+- Create azure container with saved local docker file
 
 
 
