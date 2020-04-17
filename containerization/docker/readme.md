@@ -6,7 +6,7 @@
 - Run Containers here
 
 
-## Docker Docker Registry
+## Docker Registry
 - Azure Container Registry and Docker Hub
 - Many organizations publish docker images to DockerHub (it's public and free with account)
 - Need Registry, repository, and version tag to get image you want
@@ -23,6 +23,11 @@
 - EXPOSE 80 (tell container to open this port)
 - WORKDIR /rel (sets working directory again)
 - ENTRYPOINT ["dotnet", "myapp.dll"] (command to run when app starts)
+
+## Azure Container Registry
+- Access Levels: Reader (can pull), Contributer (can pull and push), owner (can pull, push, and assign roles), admin (duh)
+- Replicate images to different regions for compute-close resources
+
 
 ## Notes
 - Containers do not persist file changes made in it's image.  To do so you would need to take extra steps to preserve the state of the container
