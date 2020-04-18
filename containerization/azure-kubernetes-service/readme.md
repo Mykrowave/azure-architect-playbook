@@ -28,6 +28,7 @@
 - Rapidly iterate and debug code in kubernetes using VS or VS Code
 - Generate Docker and K8s config as code assets to use from dev to prod
 - Develop your code in isolation and do integrated testing with other components without replicating or mocking up dependencies
+- Work as a Team
 
 
 
