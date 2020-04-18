@@ -31,6 +31,7 @@
 - Sign images to increase trust
 - images are encrypted at rest
 - Basic, Standard, and Premium pricing tiers.  Scale is storage size, total web hooks, and Premium is only one with Geo Replications
+- Webhooks allow for service to subscribe to a registry and get pushes when image is updated.  This helps in CI/CD scenarios
 
 ## Deploying to an App Service from a Registry
 - Can be Docker hub, ACR, or any registry
