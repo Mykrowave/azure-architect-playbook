@@ -11,3 +11,6 @@ az acr replication create --registry $ACR_NAME --location japaneast
 
 # review all container image replicas
 az acr replication list --registry $ACR_NAME --output table
+
+# # use cli to upload Docker file and other files that make up your image, then build
+az acr build --file Dockerfile --registry myregistry --image myimage .
