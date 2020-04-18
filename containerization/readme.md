@@ -1,5 +1,11 @@
 # Containerization
 
+1) Containers are immutable.  They can be deployed and run in any envrionment with no deviation
+2) LightWeight.
+3) StartUp is fast
+
+- Containers are disposable
+
 ## Docker
 
 - Improve efficiency of app development process
