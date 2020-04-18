@@ -33,6 +33,12 @@
 - Basic, Standard, and Premium pricing tiers.  Scale is storage size, total web hooks, and Premium is only one with Geo Replications
 - Webhooks allow for service to subscribe to a registry and get pushes when image is updated.  This helps in CI/CD scenarios
 
+### Azure Container Registry Tasks
+- Build Images from source
+- Build on demand with devops process and tooling
+- Create azure container with saved local docker file
+- Configure a Task to watch a github repository and trigger a build each time it changes
+
 ## Deploying to an App Service from a Registry
 - Can be Docker hub, ACR, or any registry
 - 
