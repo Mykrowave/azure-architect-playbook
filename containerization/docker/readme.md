@@ -27,6 +27,9 @@
 ## Azure Container Registry
 - Access Levels: Reader (can pull), Contributer (can pull and push), owner (can pull, push, and assign roles), admin (duh)
 - Replicate images to different regions for compute-close resources
+- More security options than Docker Hub
+- Sign images to increase trust
+- images are encrypted at rest
 
 
 ## Notes
