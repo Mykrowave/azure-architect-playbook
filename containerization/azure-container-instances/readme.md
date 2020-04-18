@@ -20,10 +20,7 @@
 - Attach to watch container instance "happenings" - log streaming
 - show metrics like cpu and memory
 
-## Azure Container Registry Tasks
-- Build Images from source
-- Build on demand with devops process and tooling
-- Create azure container with saved local docker file
+
 
 
 
