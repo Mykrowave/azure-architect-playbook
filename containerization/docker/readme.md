@@ -32,7 +32,9 @@
 - images are encrypted at rest
 - Basic, Standard, and Premium pricing tiers.  Scale is storage size, total web hooks, and Premium is only one with Geo Replications
 
-
+## Deploying to an App Service from a Registry
+- Can be Docker hub, ACR, or any registry
+- 
 ## Notes
 - Containers do not persist file changes made in it's image.  To do so you would need to take extra steps to preserve the state of the container
 - possible to mount volumes to a container for persistance (not super great idea)
