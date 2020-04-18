@@ -30,6 +30,7 @@
 - More security options than Docker Hub
 - Sign images to increase trust
 - images are encrypted at rest
+- Basic, Standard, and Premium pricing tiers.  Scale is storage size, total web hooks, and Premium is only one with Geo Replications
 
 
 ## Notes
