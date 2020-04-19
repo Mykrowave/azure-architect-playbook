@@ -1,6 +1,7 @@
 # Azure Cache for Redis
 
 - ServiceStack.Redis C# Library
+- Pricing Tiers: Basic(dev), Standard(prod), Premium(enterprise) - basic has no SLA, standard is 2 node for high SLA
 
 
 ## Create Transactions
