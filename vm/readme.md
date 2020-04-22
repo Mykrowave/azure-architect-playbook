@@ -16,5 +16,5 @@
 - Run on VM through powershell, bash, or even the ARM Template
 - Custom Scripts will not continue on restart
 
-## Desired State Extensions
+## Desired State Configurations Extensions
 - Helps with complex configurations
