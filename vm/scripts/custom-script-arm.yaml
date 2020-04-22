@@ -1,0 +1,22 @@
+{
+    "apiVersion": "2019-06-01",
+    "type": "Microsoft.Compute/virtualMachines/extensions",
+    "name": "[concat(variables('virtual machineName'),'/', 'InstallWebServer')]",
+    "location": "[parameters('location')]",
+    "dependsOn": [
+        "[concat('Microsoft.Compute/virtualMachines/',variables('virtual machineName'))]"
+    ],
+    "properties": {
+        "publisher": "Microsoft.Compute",
+        "type": "CustomScriptExtension",
+        "typeHandlerVersion": "1.7",
+        "autoUpgradeMinorVersion":true,
+        "settings": {
+            "fileUris": [
+                "https://your-potential-file-location.com/your-script-file.ps1"
+            ],
+            "commandToExecute": "powershell.exe -ExecutionPolicy Unrestricted -File your-script-file.ps1"
+       		 }
+    	}
+	}
+}
