@@ -10,3 +10,9 @@
 - GPU Optimized NV, NC
 - High Performance H, A
 
+
+## Custom Scripts
+- Installs software or run other task on vm
+- Run on VM through powershell, bash, or even the ARM Template
+- Custom Scripts will not continue on restart
+
