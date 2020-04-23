@@ -1,5 +1,15 @@
 # Deploy From ARM Template using Azure CLI
 
+# validate deploymnet
+az deployment group validate \
+  --resource-group $RESOURCEGROUP \
+  --template-uri "https://raw.githubusercontent.com/Azure/azure-quickstart-templates/master/101-vm-simple-windows/azuredeploy.json" \
+  --parameters adminUsername=$USERNAME \
+  --parameters adminPassword=$PASSWORD \
+  --parameters dnsLabelPrefix=$DNS_LABEL_PREFIX
+  --parameters location=$LOCATION
+  
+  
 # Deploy to a resource group
 az deployment group create --resource-group <resource-group-name> --template-file <path-to-template>
 
