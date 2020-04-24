@@ -71,3 +71,16 @@ az vm deallocate \
 az vm generalize \
     --resource-group <resource group> \
     --name <virtual machine name>
+
+# Create an Image (Capture)
+az image create \
+    --name <image name> \
+    --resource-group <resource group> \
+    --source <generalized virtual machine>
+    
+# Create a VM from an image
+az vm create \
+    --resource-group <resource group> \
+    --name <new virtual machine name> \
+    --image <image name> \
+    --location <location of image>
