@@ -60,4 +60,14 @@ az vm resize \
 az vm list-ip-addresses -n SampleVM -o table
 
 
-    
+# For Generalizing a VM
+# IF on Windows you have used the windows32/sysprep tool 
+# IF on Linux you have used the waagent tool
+# THEN
+az vm deallocate \
+    --resource-group <resource group> \
+    --name <virtual machine name>
+
+az vm generalize \
+    --resource-group <resource group> \
+    --name <virtual machine name>
