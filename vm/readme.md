@@ -53,3 +53,6 @@
 
 ## Specialized Image
 - Copy of live vm after it has reached a certain state
+
+## Capturing Image
+- Makes VM unusable forever.  Make sure to Generalize first.
