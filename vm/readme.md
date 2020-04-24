@@ -55,4 +55,12 @@
 - Copy of live vm after it has reached a certain state
 
 ## Capturing Image
-- Makes VM unusable forever.  Make sure to Generalize first.
+- Makes VM unusable forever. This is destructive
+- 
+
+## Snapshot of VHD
+- Create a snapshot of every VHD in VM.
+- It is read only.
+- Can restore a VHD to state of snapshot
+- Need to make sure all disk activity is stopped - so stop VM
+- This is a non-destructive process
