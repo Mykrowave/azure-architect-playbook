@@ -6,4 +6,8 @@
 3) Using Azure Portal Create a new VM from Generalized Image
 4) Create a snapshot of previous VHD
 5) Restore VHD from snapshot
-4) Azure CLI deallocate it newly created VM
+6) Azure CLI deallocate it newly created VM
+
+
+
+Figure out what stays in create image?
