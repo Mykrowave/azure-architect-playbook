@@ -14,4 +14,4 @@ Available patterns: Take Inputs -> Run Actions (possibly based on Conditions) ->
 
 Choosing:
 
-![Image of Choice Tree](https://docs.microsoft.com/en-us/learn/modules/choose-azure-service-to-integrate-and-automate-business-processes/media/3-service-choice-flow-diagram.png)
+![Iage of Choice Tree](https://docs.microsoft.com/en-us/learn/modules/choose-azure-service-to-integrate-and-automate-business-processes/media/3-service-choice-flow-diagram.png)
