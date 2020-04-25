@@ -22,5 +22,10 @@
 - Removal types:  
   1) Delete:  The entire VM is removed including disks.  
   2) Deallocate: VM is stopped but disk is kept.  Cost for disk is still incurred
-- 
+
+## Install and update applications on Scale Sets
+- Custom Script Extension tool is preferred.  It automates the process on all vms in the scale set
+- VM scale sets have Upgrade Policies: Automatic (no definition - updates at will), Rolling (batches updates across vms and you might have different versions live for a short period, Manual (default)
+
+
 
