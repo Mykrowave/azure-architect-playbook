@@ -11,7 +11,7 @@
   -- Must have 2 instances  
   -- must have health probe  
   -- must have rule for load balancer to point to port 80
-8) install a any popular piece of software on the scale set
+8) [install a any popular piece of software on the scale set ](https://docs.microsoft.com/en-us/azure/virtual-machines/extensions/custom-script-windows)
 
 
 
