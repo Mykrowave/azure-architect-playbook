@@ -9,7 +9,8 @@
 ## Scaling
 
 1) Scheduled: Proactively schedule scale to scale out or in N number of vms
-2) Autoscaling: Metric-based thresholds to scale
+2) Autoscaling: Metric-based thresholds to scale  
+  -- Minimum cooldown for autoscale is 5 min
 
 ## Low Priority scale sets
 - Useful when workloads can suffer interruptions or when you need larger VMs at a much reduced rate - burst processing
