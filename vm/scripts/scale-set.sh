@@ -34,6 +34,14 @@ az network lb rule create \
   --frontend-port 80 \
   --protocol tcp
   
+# Manually scale capacity 
+az vmss scale \
+    --name MyVMScaleSet \
+    --resource-group MyResourceGroup \
+    --new-capacity 6
+    
+
+  
 
 
 
