@@ -16,6 +16,10 @@
 ## Scale Sets
 - identical load-balanced VMs
 - manage a large number easily
+- All vms are identitcal - configured the same
+- Uses a Load Balancer
+- Limited to 1000 vms in a set
+
 
 ## Azure Batch
 - Super Large Workloads
