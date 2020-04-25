@@ -40,7 +40,28 @@ az vmss scale \
     --resource-group MyResourceGroup \
     --new-capacity 6
     
+# query Upgrade Policy
+az vmss show \
+    --name webServerScaleSet \
+    --resource-group scalesetrg \
+    --query upgradePolicy.mode
 
+# run set update command
+az vmss extension set \
+    --publisher Microsoft.Azure.Extensions \
+    --version 2.0 \
+    --name CustomScript \
+    --vmss-name webServerScaleSet \
+    --resource-group scalesetrg \
+    --settings "{\"commandToExecute\": \"echo This is the updated app installed on the Virtual Machine Scale Set ! > /var/www/html/index.html\"}"
+
+
+# Get Public IP Address
+az network public-ip show \
+    --name webServerScaleSetLBPublicIP \
+    --resource-group scalesetrg \
+    --output tsv \
+    --query ipAddress
   
 
 
