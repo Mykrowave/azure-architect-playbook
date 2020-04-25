@@ -8,9 +8,9 @@
 5) Restore VHD from snapshot
 6) Azure CLI deallocate it newly created VM
 7) In portal, create a Windows machine image vmss through the portal.  Requirements are:  
-  -- Must have 2 instances
-  -- must have health probe
-  -- must have rule for load balancer to point to port 80 
+  -- Must have 2 instances  
+  -- must have health probe  
+  -- must have rule for load balancer to point to port 80
 
 
 
