@@ -14,6 +14,7 @@
 ## Low Priority scale sets
 - Useful when workloads can suffer interruptions or when you need larger VMs at a much reduced rate - burst processing
 - Cost savings of up to 80%
+- Default Scale Set has 2 instances and a Load Balancer
 - Azure Global infrastructure basically Hotels.com. It has unused compute power ready to go with no one using it.  So, it distributes it out at a severely low cost.  The Trade Off is that you dont have any control over when it is available or not.  IT should be used in a "Low Priority" situation.
 - Azure can and will remove them from you when it needs it back.
 - You can gracefully exit code or do housekeeping cleanup after a notification from Azure.  YOu'll use schedule events to make that happen.
