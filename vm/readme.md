@@ -13,13 +13,8 @@
 ## Availability Sets
 - Logical vm groupings that help keep your application(s) available during planned or unplanned maintenence (up to 3 fault domains)
 
-## Scale Sets
+## [Scale Sets](https://github.com/Mykrowave/azure-architect-playbook/tree/master/vm/scalesets)
 - identical load-balanced VMs
-- manage a large number easily
-- All vms are identitcal - configured the same
-- Uses a Load Balancer
-- Limited to 1000 vms in a set
-
 
 ## Azure Batch
 - Super Large Workloads
