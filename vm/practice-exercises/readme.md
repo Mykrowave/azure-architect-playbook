@@ -12,7 +12,7 @@
   -- must have health probe  
   -- must have rule for load balancer to point to port 80
 8) [install a any popular piece of software on the scale set ](https://docs.microsoft.com/en-us/azure/virtual-machines/extensions/custom-script-windows)
-
+9) Get Template from a repository of VM, create at least 2 parameters, 2 variables, 2 functions. Then deploy it from command line.
 
 
 Figure out what stays in create image?
