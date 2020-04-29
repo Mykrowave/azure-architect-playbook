@@ -3,7 +3,7 @@ az group create \
   --location westus \
   --name scalesetrg
 
-# Dont forget to set up a load balancer
+# Dont forget to set up a load balancer?
 # Create Scale Set - not included is the cloud-init.yaml file with is an init for the Linux VM
 az vmss create \
   --resource-group scalesetrg \
