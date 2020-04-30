@@ -63,3 +63,7 @@
 - Can restore a VHD to state of snapshot
 - Need to make sure all disk activity is stopped - so stop VM
 - This is a non-destructive process
+
+
+# Popular Templates
+https://azure.microsoft.com/en-us/resources/templates/?resourceType=Microsoft.Compute&pageNumber=1&sort=Popular
