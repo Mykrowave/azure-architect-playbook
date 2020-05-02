@@ -43,7 +43,8 @@ Deploying ARM Templates can be done through Powershell Command and Azure CLI:
 4) Azure cli Resource Log = az group deployment create  
 
 
-
+# Security Center
+1) Use Playbooks to respond to activities
 
 
 
