@@ -2,6 +2,11 @@
 Provides a "centralized" place to manage Metrics, Diagnostics, and Logs across all pieces of your Infrastructure.  Multiple Diagnostic settings can be applied to a single resource.  
 There are many many monitoring solutions that can feed a Log Analytics workspace. The Azure Marketplace houses them all.
 
+
+## Data Types 
+1) Metrics - Time Sensitive values that represent some aspect of target resource
+2) Logs - Structured, Record-Based log files relevant to target resource 
+
 ## Resource Diagnostic Setting
 Need to determine what diagnostics need to be collected AND where that data should be stored.  
 Type of Platform Logs:  
@@ -13,6 +18,7 @@ Possible Destinations:
 1) Storage Account (create csv's, excel reports, static analysis)
 2) Log Analytics WorkSpaces (Query specifics and dig those problems out)
 3) Event Hubs namespaces (date pipelines "ingestion")  
+
 
 ## Activity Log  
 You cannot create a diagnostic setting for Activity Log through PowerShell or Azure CLI, but you can create a Deployment ARM Template and Deploy through PowerShell or Azure CLI  
@@ -45,6 +51,7 @@ Deploying ARM Templates can be done through Powershell Command and Azure CLI:
 
 # Security Center
 1) Use Playbooks to respond to activities
+
 
 
 
