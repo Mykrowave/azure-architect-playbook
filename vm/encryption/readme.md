@@ -2,6 +2,10 @@
 
 - Asymmetirc: Different keys for encrypting and decrypting
 - Symmetric: Same Key
+- On some Linux machines on the Data Disks can be encrypted
+- On Windows, the drive must be NTFS format
+- Take a snapshot or a backup before encrypting
+
 
 
 ## Azure VM Encryption Techonologies
@@ -13,3 +17,4 @@
   
 - Possible to use both at the same time
 - Storage Service Encryption is on by default and you cant turn it off
+
